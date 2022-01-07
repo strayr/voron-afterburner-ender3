@@ -3,6 +3,12 @@
 <img src="DOCS/IMAGES/cad-model.png" alt="Cad Model of carriage" width="466"/>
 
 This is my effort to get an afterburner on my ender 3 v2, some of the other models modify the casing of the clockwork and i'd much rather have the full modularity the afterburner provides, so i can slot in different extruders and toolheads or even a dual/triple bowden adapter from the switchwire multi extrusion effort.
+
+## Changes
+
+- 2 Made a mount that sits on the right hand side of the carriage close to the stock x position. Hopefully the nozzle will require less X offset and can probe more of the bed due to extra travel available of the carriage beyond the right side of the bed.
+- 1 Initial commit
+
 ## Compatibility
 
 This is known to fit a late 2020 production Ender v2, it might not fit older pros and vanilla ender 3s.
