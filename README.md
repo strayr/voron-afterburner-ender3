@@ -6,6 +6,7 @@ This is my effort to get an afterburner on my ender 3 v2, some of the other mode
 
 ## Changes
 
+- 3 Shared my AB-BN toolhead mod for creality hotends. It only works with the AB-BN-30 fan shroud, not afterburner or stealthburner. It's better with a v6 type nozzle and slightly longer screws on the hotend, and i'm using a bimetallic heatbreak. I don't recommend anyone go out and buy a slice heatbreak, if you want an upgrade buy a voron supported hotend. I get really nice results with my v6s, but I'm using this on one printer as I;m a cheapskate. May have jams if you use a 12v or silent fan. Works great with stock 24v creality fan. 
 - 2 Made a mount that sits on the right hand side of the carriage close to the stock x position. Hopefully the nozzle will require less X offset and can probe more of the bed due to extra travel available of the carriage beyond the right side of the bed.
 - 1 Initial commit
 
