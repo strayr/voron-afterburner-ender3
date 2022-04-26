@@ -18,6 +18,8 @@ My starting point for part cooling was [Greg191134's 5015 mod](https://github.co
 I am sourcing a switchwire which will start as an ender3 conversion so this will not be continuously developed. 
 ## Changes
 
+- 4 made a clockwork 2 comaptible version.
+
 - 3 Shared my AB-BN toolhead mod for creality hotends. It only works with the AB-BN-30 fan shroud, not afterburner or stealthburner. It's better with a v6 type nozzle and slightly longer screws on the hotend, and i'm using a bimetallic heatbreak. I don't recommend anyone go out and buy a slice heatbreak, if you want an upgrade buy a voron supported hotend. I get really nice results with my v6s, but I'm using this on one printer as I;m a cheapskate. May have jams if you use a 12v or silent fan. Works great with stock 24v creality fan. 
 - 2 Made a mount that sits on the right hand side of the carriage close to the stock x position. Hopefully the nozzle will require less X offset and can probe more of the bed due to extra travel available of the carriage beyond the right side of the bed.
 - 1 Initial commit
@@ -26,7 +28,7 @@ I am sourcing a switchwire which will start as an ender3 conversion so this will
 
 This is known to fit a late 2020 production Ender v2, it might not fit older pros and vanilla ender 3s.
 
-The afterburner carriage fits clockwork 1, AB-BN-30 and the stealthburner fan shroudand toolhead. It doesn not fit clockwork 2. A clockwork 2 compatible carriage will happen shortly. ERCF modified clockwork should fit
+The afterburner carriage fits clockwork 1, AB-BN-30 and the stealthburner fan shroudand toolhead. It doesn not fit clockwork 2. ~~A clockwork 2 compatible carriage will happen shortly.~~ ERCF modified clockwork should fit. A modified version that should fit Clockwork 2 is availabe in the CW2 folder.
 
 The Omron inductive probe does not fit, and is not compatible with the creality v-roller carriage. I use this with a BL-Touch. If you really want to use an omron style inductive probe you will likely need a linear rail setup, i suggest you consider converting your ender 3 into a switchwire.
 
