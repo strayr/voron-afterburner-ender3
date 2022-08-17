@@ -1,8 +1,8 @@
-# Afterburner Carriage for Ender 3 v2
+# Afterburner Carriage and Toolheads for Ender 3 v2
 
 <img src="DOCS/IMAGES/cad_render.jpg" alt="Cad Model of carriage" />
 
-This is my effort to get an afterburner on my ender 3 v2, some of the other models modify the casing of the clockwork and i'd much rather have the full modularity the afterburner provides, so i can slot in different extruders and toolheads or even a dual/triple bowden adapter from the switchwire multi extrusion effort. This isn't really intended as an endpoint but a step between and Ender3 and building a Voron.
+This is my effort to get an afterburner/stealthburner on my ender 3 v2, and reuse the creality hotend. Some of the other models modify the casing of the clockwork and i'd much rather have the full modularity the afterburner provides, so i can slot in different extruders and toolheads or even a dual/triple bowden adapter from the switchwire multi extrusion effort. This isn't really intended as an endpoint but a step between and Ender3 and building a Voron.
 ## User story
 
 This was built as a way to try out afterburner before going all in on a Voron. Vorons have a pit of a reputation for being ABS machines, and as most models are designed to be enclosed they are **very** good at printing abs. The default 4020 fan afterburner is allegedly a bit feeble for printing ABS fast.
@@ -17,6 +17,8 @@ My starting point for part cooling was [Greg191134's 5015 mod](https://github.co
 
 I am sourcing a switchwire which will start as an ender3 conversion so this will not be continuously developed. 
 ## Changes
+
+- 5 added a stealthburner toolhead mount that fits Creality hotends. 
 
 - 4 made a clockwork 2 comaptible version.
 
@@ -43,7 +45,7 @@ I'm using E3D nozzles with my creality hotend which required some longer screws 
 
 Do not use a "silent" fan with the creality hotend, it needs the flow of a 24v high flow cooling fan, the stock creality one is ok, you don't need to buy an expensive one, but if you have a noctua 4010 or a cheap silent fan it will probably cause jams, certainly it did for me.
 
-## Versions
+## Contents
 ### RightHandMount
 I reworked my original to mount near where the original hotend mounts, it should make for easier use without custom firmware and allows more ofthe bed to be probed. You may need to turn around the bolt on the lower v-roller so the head faces the gantry, this will allow more X travel.
 
@@ -56,6 +58,16 @@ I reworked my original to mount near where the original hotend mounts, it should
 This is my [original](https://github.com/strayr/voron-afterburner-ender3/tree/main/OriginalMount) version, centered on the carriage plate, it's more stable but if you use a probe it can't reach as much of the bed. It works well but I prefer the right hand mount. It may require custom firmware.
 
 <img src="DOCS/IMAGES/cad-model.png" alt="Cad Model of carriage" width="466"/>
+
+### AB-BN toolhead
+
+My first attempt at reusing my creality hotend
+
+### Strealthburner toolhead
+
+UMy second attempt at reuse of a creality hotend. The stock ptfe lined is not really recommended, but if you have an all metal heatbreak it can work quite well. The E3D Cyclops heatbreak is cheap and fits. I use a Slice Copperhead heatbreak and continue to adapt toolheads for it becasue sunk cost. Just get a v6/revo/dragon/whatever voron supports if you haven't already spent money here.
+
+I strongly recommend longer stainless steel screws on the heather block and a V6/reprap style nozzle here, they have a longer thread and stick out less from the heater block, and unscrewing the heat break a little to accommodate these can move the heater block further away form the printed parts of the toolhead.
 
 
 ## Printing

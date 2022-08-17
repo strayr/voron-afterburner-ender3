@@ -1,6 +1,6 @@
 Summary
 
-Just a quick remix of lessananon1's afterburner bracket to fit an Ender 3 V2 plate with a BLTouch.
+This was based on my remix of lessananon1's afterburner bracket to fit an Ender 3 V2 plate with a BLTouch.
 
 # Ender 3 v2 Hydra Mount
 
