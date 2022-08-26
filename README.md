@@ -1,6 +1,7 @@
 # Afterburner Carriage and Toolheads for Ender 3 v2
 
 <img src="DOCS/IMAGES/cad_render.jpg" alt="Cad Model of carriage" />
+<img src="Stealthburner_toolhead/IMG/E3_toolhead_rear.jpg" alt="E3 hotend in stealthburner toolhead">
 
 This is my effort to get an afterburner/stealthburner on my ender 3 v2, and reuse the creality hotend. Some of the other models modify the casing of the clockwork and i'd much rather have the full modularity the afterburner provides, so i can slot in different extruders and toolheads or even a dual/triple bowden adapter from the switchwire multi extrusion effort. This isn't really intended as an endpoint but a step between and Ender3 and building a Voron.
 ## User story
@@ -120,6 +121,8 @@ Afterburner duct, clockwork extruder and Greg191134's 5015 fan mod
 <img src="DOCS/IMAGES/left.jpg" alt="Left side of carriage with afterburner mounted" width="500"/>
 
 <img src="DOCS/IMAGES/right.jpg" alt="Right side of carriage with afterburner mounted" width="500"/>
+
+<img src="Stealthburner_toolhead/IMG/E3_toolhead_open.jpg" alt ="E3 hotend in stealthburner toolhead">
 
 Stealthburner (left) and AB-BN-30 (right) with Ziro PLA
 
