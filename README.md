@@ -1,9 +1,10 @@
-# Afterburner Carriage and Toolheads for Ender 3 v2
+# Afterburner Carriage for Ender 3 v2
 
 <img src="DOCS/IMAGES/cad_render.jpg" alt="Cad Model of carriage" />
-<img src="Stealthburner_toolhead/IMG/E3_toolhead_rear.jpg" alt="E3 hotend in stealthburner toolhead">
 
 This is my effort to get an afterburner/stealthburner on my ender 3 v2, and reuse the creality hotend. Some of the other models modify the casing of the clockwork and i'd much rather have the full modularity the afterburner provides, so i can slot in different extruders and toolheads or even a dual/triple bowden adapter from the switchwire multi extrusion effort. This isn't really intended as an endpoint but a step between and Ender3 and building a Voron.
+
+I maintain a [creality toolhead for stealthburner](https://github.com/strayr/stealthburner_creality_edition) separately.
 ## User story
 
 This was built as a way to try out afterburner before going all in on a Voron. Vorons have a pit of a reputation for being ABS machines, and as most models are designed to be enclosed they are **very** good at printing abs. The default 4020 fan afterburner is allegedly a bit feeble for printing ABS fast.
@@ -16,8 +17,10 @@ My starting point for part cooling was [Greg191134's 5015 mod](https://github.co
 
  ## Future
 
-I am sourcing a switchwire which will start as an ender3 conversion so this will not be continuously developed. 
+This is considered complete, I no longer have an ender 3, it's now a VS.373. Stealthburner toolhead has it's own repository now and will continue to be supported.
 ## Changes
+
+- Remove stealthburner, link to new repo.
 
 - 5 added a stealthburner toolhead mount that fits Creality hotends. 
 
